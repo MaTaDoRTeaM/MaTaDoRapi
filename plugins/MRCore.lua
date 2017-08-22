@@ -41,6 +41,7 @@ local function already_admin(user_id)
   return false
 end
 
+
 local function sudolist(msg)
 local sudo_users = _config.sudo_users
 local text = "Sudo Users :\n"
